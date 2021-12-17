@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.5.0)
+  - ASCollectionView (1.4.0)
+  - Kingfisher (7.1.2)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ASCollectionView
+  - Kingfisher
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ASCollectionView
+    - Kingfisher
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  ASCollectionView: 5247d88da78e94be831d87f3e03ac97ff0d6364a
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 26e10ea0a90339877b25789e359cd1f6e5454373
+
+COCOAPODS: 1.11.2
