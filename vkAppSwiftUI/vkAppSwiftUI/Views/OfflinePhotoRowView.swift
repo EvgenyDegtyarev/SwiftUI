@@ -25,7 +25,7 @@ struct OfflinePhotoRowView: View {
                     }
                 }
             }
-            .navigationBarTitle("photos")
+            .navigationBarTitle("images")
             .navigationBarHidden(false)
     }
 }

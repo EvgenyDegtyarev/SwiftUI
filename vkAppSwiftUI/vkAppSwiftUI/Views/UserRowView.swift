@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Kingfisher
+import Alamofire
 
 struct UserRowView: View {
     
@@ -22,7 +23,6 @@ struct UserRowView: View {
     var body: some View {
         NavigationView {
             List(viewModel.friends, id: \.id) { user in
-//                    NavigationLink(destination: FullPhotoView(viewModel: PhotosViewModel), label:  {
                     HStack {
                         KFImage(user.userAvatarURL)
                         .resizable()
@@ -37,8 +37,6 @@ struct UserRowView: View {
                             .textStyle()
                     }
                 }
-//            )
-        
         }
         .onAppear(perform: self.viewModel.getUserFriends)
         .navigationBarHidden(false)
@@ -53,8 +51,12 @@ struct UserRowView: View {
                     NewsView(viewModel: NewsViewModel())
                 }
                 Spacer()
-                NavigationLink("photos") {
+                NavigationLink("images") {
                     OfflinePhotoRowView()
+                }
+                Spacer()
+                NavigationLink("photos") {
+                    FullPhotoView(viewModel: PhotosViewModel(networkService: NetworkService()))
                 }
             }
         }

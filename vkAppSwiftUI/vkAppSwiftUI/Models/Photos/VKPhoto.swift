@@ -13,7 +13,7 @@ struct VKPhoto {
     let albumID: Int
     let ownerID: Int
     let sizes: [VKPhotoSize]
-    let largeURL: URL
+    //let largeURL: URL
 }
 
 extension VKPhoto {
@@ -23,7 +23,7 @@ extension VKPhoto {
         self.ownerID = json["owner_id"].intValue
         let sizeJSONs = json["sizes"].arrayValue
         self.sizes = sizeJSONs.map { VKPhotoSize($0) }
-        self.largeURL = sizes.first {$0.type == "1"}!.url
+       // self.largeURL = self.sizes.first {$0.type == "1"}?.url
     }
 }
 

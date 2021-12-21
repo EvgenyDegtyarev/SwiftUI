@@ -10,18 +10,23 @@ import Kingfisher
 
 struct FullPhotoView: View {
 
-    var photoUser: VKPhoto
+    
     @ObservedObject var viewModel: PhotosViewModel
-
+    
+    let columns = [
+        GridItem(.flexible(minimum: 0, maximum: .infinity)),
+        GridItem(.flexible(minimum: 0, maximum: .infinity)),
+    ]
+    
     let networkService = NetworkService()
-//
+
 //    init(viewModel: PhotosViewModel) {
 //        self.viewModel = viewModel
 //    }
 
     var body: some View {
         List(viewModel.photos, id: \.id) { photos in
-            KFImage(photos.largeURL)
+            KFImage(photos.sizes.first {$0.type == "1"}?.url)
                 .cancelOnDisappear(true)
         }
         .onAppear(perform: self.viewModel.getUserPhotos)

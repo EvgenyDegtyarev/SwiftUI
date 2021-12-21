@@ -18,7 +18,7 @@ class PhotosViewModel: ObservableObject {
         }
     
     func getUserPhotos() {
-        self.networkService.getUserPhotos(userID: Session.instance.userId!){ [weak self] vkPhotos in
+        self.networkService.getUserPhotos(userID: Session.instance.userId ?? 8022612){ [weak self] vkPhotos in
             guard
                 let self = self,
                 let photos = vkPhotos
