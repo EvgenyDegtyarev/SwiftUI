@@ -44,7 +44,7 @@ struct UserRowView: View {
         .navigationBarHidden(false)
         .navigationTitle("friends")
         .toolbar{
-            ToolbarItemGroup(placement: .bottomBar){
+            ToolbarItemGroup(placement: .navigationBarLeading){
                 NavigationLink("groups") {
                     GroupRowView(viewModel: GroupViewModel(networkService: NetworkService()))
                 }

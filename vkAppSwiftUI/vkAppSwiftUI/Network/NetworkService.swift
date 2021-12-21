@@ -25,7 +25,7 @@ class NetworkService {
             url.host = "api.vk.com"
             url.path = "/method/\(path.rawValue)"
             url.queryItems = [
-                URLQueryItem(name: "access_token", value: Session.instance.token),
+                URLQueryItem(name: "access_token", value: UserDefaults.standard.string(forKey: "vkToken")),
                 URLQueryItem(name: "v", value: apiVersion),
             ]
             return url
