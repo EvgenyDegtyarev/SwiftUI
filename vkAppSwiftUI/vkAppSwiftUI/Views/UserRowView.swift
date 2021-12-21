@@ -44,12 +44,17 @@ struct UserRowView: View {
         .navigationBarHidden(false)
         .navigationTitle("friends")
         .toolbar{
-            ToolbarItemGroup(placement: .navigationBarLeading){
+            ToolbarItemGroup(placement: .bottomBar){
                 NavigationLink("groups") {
                     GroupRowView(viewModel: GroupViewModel(networkService: NetworkService()))
                 }
+                Spacer()
                 NavigationLink("news") {
                     NewsView(viewModel: NewsViewModel())
+                }
+                Spacer()
+                NavigationLink("photos") {
+                    OfflinePhotoRowView()
                 }
             }
         }

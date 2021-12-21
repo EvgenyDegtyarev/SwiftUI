@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8CB74C35B6114427BDFF4594 /* Pods_vkAppSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDEE1785F37FA37EDE594AE /* Pods_vkAppSwiftUI.framework */; };
 		E441D1E0276C707B0026D4BE /* vkAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441D1DF276C707B0026D4BE /* vkAppSwiftUIApp.swift */; };
-		E441D1E2276C707C0026D4BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441D1E1276C707C0026D4BE /* ContentView.swift */; };
 		E441D1E4276C707F0026D4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E441D1E3276C707F0026D4BE /* Assets.xcassets */; };
 		E441D1E7276C707F0026D4BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E441D1E6276C707F0026D4BE /* Preview Assets.xcassets */; };
 		E441D1F1276C72B90026D4BE /* WebLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441D1F0276C72B90026D4BE /* WebLoginView.swift */; };
@@ -31,6 +30,11 @@
 		E441D217276C767A0026D4BE /* NewsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441D216276C767A0026D4BE /* NewsRowView.swift */; };
 		E441D219276C769C0026D4BE /* DetailNewsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441D218276C769C0026D4BE /* DetailNewsRowView.swift */; };
 		E441D21B276C76AF0026D4BE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441D21A276C76AF0026D4BE /* AppView.swift */; };
+		E441D21F2770AA7E0026D4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441D21E2770AA7E0026D4BE /* AppDelegate.swift */; };
+		E441D2212770AB240026D4BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441D2202770AB240026D4BE /* SceneDelegate.swift */; };
+		E441D2232770AC3B0026D4BE /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441D2222770AC3B0026D4BE /* AppFlowCoordinator.swift */; };
+		E441D2272771AB5A0026D4BE /* OfflinePhotoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441D2262771AB5A0026D4BE /* OfflinePhotoRowView.swift */; };
+		E441D2292771AF660026D4BE /* OfflinePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E441D2282771AF650026D4BE /* OfflinePhotos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +43,6 @@
 		C72B653C207F357E24388206 /* Pods-vkAppSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vkAppSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-vkAppSwiftUI/Pods-vkAppSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
 		E441D1DC276C707B0026D4BE /* vkAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E441D1DF276C707B0026D4BE /* vkAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vkAppSwiftUIApp.swift; sourceTree = "<group>"; };
-		E441D1E1276C707C0026D4BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E441D1E3276C707F0026D4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E441D1E6276C707F0026D4BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E441D1F0276C72B90026D4BE /* WebLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLoginView.swift; sourceTree = "<group>"; };
@@ -61,6 +64,11 @@
 		E441D216276C767A0026D4BE /* NewsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRowView.swift; sourceTree = "<group>"; };
 		E441D218276C769C0026D4BE /* DetailNewsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsRowView.swift; sourceTree = "<group>"; };
 		E441D21A276C76AF0026D4BE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		E441D21E2770AA7E0026D4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E441D2202770AB240026D4BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E441D2222770AC3B0026D4BE /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
+		E441D2262771AB5A0026D4BE /* OfflinePhotoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflinePhotoRowView.swift; sourceTree = "<group>"; };
+		E441D2282771AF650026D4BE /* OfflinePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflinePhotos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +125,12 @@
 				E441D1EE276C70BB0026D4BE /* Network */,
 				E441D1ED276C70B10026D4BE /* Models */,
 				E441D1DF276C707B0026D4BE /* vkAppSwiftUIApp.swift */,
-				E441D1E1276C707C0026D4BE /* ContentView.swift */,
 				E441D1E3276C707F0026D4BE /* Assets.xcassets */,
 				E441D1F2276C731D0026D4BE /* ViewStyle.swift */,
 				E441D1E5276C707F0026D4BE /* Preview Content */,
+				E441D21E2770AA7E0026D4BE /* AppDelegate.swift */,
+				E441D2202770AB240026D4BE /* SceneDelegate.swift */,
+				E441D2222770AC3B0026D4BE /* AppFlowCoordinator.swift */,
 			);
 			path = vkAppSwiftUI;
 			sourceTree = "<group>";
@@ -163,6 +173,8 @@
 				E441D216276C767A0026D4BE /* NewsRowView.swift */,
 				E441D218276C769C0026D4BE /* DetailNewsRowView.swift */,
 				E441D21A276C76AF0026D4BE /* AppView.swift */,
+				E441D200276C74660026D4BE /* PhotoRowView.swift */,
+				E441D2262771AB5A0026D4BE /* OfflinePhotoRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,9 +209,9 @@
 		E441D1FD276C73F50026D4BE /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				E441D200276C74660026D4BE /* PhotoRowView.swift */,
 				E441D202276C74780026D4BE /* PhtotoViewModel.swift */,
 				E441D204276C74850026D4BE /* VKPhoto.swift */,
+				E441D2282771AF650026D4BE /* OfflinePhotos.swift */,
 			);
 			path = Photos;
 			sourceTree = "<group>";
@@ -322,21 +334,25 @@
 				E441D219276C769C0026D4BE /* DetailNewsRowView.swift in Sources */,
 				E441D1F5276C73610026D4BE /* NetworkService.swift in Sources */,
 				E441D207276C74F20026D4BE /* UserViewModel.swift in Sources */,
+				E441D2272771AB5A0026D4BE /* OfflinePhotoRowView.swift in Sources */,
 				E441D209276C75010026D4BE /* VKFriends.swift in Sources */,
 				E441D20D276C75540026D4BE /* VKGroup.swift in Sources */,
 				E441D215276C76680026D4BE /* GroupRowView.swift in Sources */,
+				E441D2212770AB240026D4BE /* SceneDelegate.swift in Sources */,
 				E441D1F9276C737C0026D4BE /* Singleton.swift in Sources */,
 				E441D203276C74780026D4BE /* PhtotoViewModel.swift in Sources */,
 				E441D211276C75DD0026D4BE /* NewsViewModel.swift in Sources */,
 				E441D213276C763A0026D4BE /* UserRowView.swift in Sources */,
 				E441D201276C74660026D4BE /* PhotoRowView.swift in Sources */,
+				E441D2232770AC3B0026D4BE /* AppFlowCoordinator.swift in Sources */,
 				E441D1F1276C72B90026D4BE /* WebLoginView.swift in Sources */,
+				E441D2292771AF660026D4BE /* OfflinePhotos.swift in Sources */,
 				E441D20F276C75C00026D4BE /* NewsModel.swift in Sources */,
 				E441D205276C74850026D4BE /* VKPhoto.swift in Sources */,
-				E441D1E2276C707C0026D4BE /* ContentView.swift in Sources */,
 				E441D217276C767A0026D4BE /* NewsRowView.swift in Sources */,
 				E441D21B276C76AF0026D4BE /* AppView.swift in Sources */,
 				E441D1F7276C736F0026D4BE /* NetworkPath.swift in Sources */,
+				E441D21F2770AA7E0026D4BE /* AppDelegate.swift in Sources */,
 				E441D1F3276C731D0026D4BE /* ViewStyle.swift in Sources */,
 				E441D1E0276C707B0026D4BE /* vkAppSwiftUIApp.swift in Sources */,
 			);

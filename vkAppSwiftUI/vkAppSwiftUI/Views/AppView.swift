@@ -17,7 +17,7 @@ struct AppView: View {
             HStack {
                 if token == nil {
                     VKLoginWebView()
-                } else {
+                } else {               
                     UserRowView(viewModel: UserViewModel(networkService: NetworkService()))
                 }
             }

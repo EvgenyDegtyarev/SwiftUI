@@ -16,7 +16,6 @@ class NetworkService {
     let path = "method/"
     var id: String = ""
     var method: String = ""
-    //var token: String = ""
     private let apiVersion = "5.130"
     
     private func makeComponents(for path: NetworkPaths) -> URLComponents {
